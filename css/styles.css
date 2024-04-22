@@ -1,0 +1,20 @@
+/* * {
+    outline: 2px solid red;
+  } */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    color: red;
+}
+
+.content {
+    color: yellowgreen;
+}
+
+.footer {
+    color: purple;
+}
