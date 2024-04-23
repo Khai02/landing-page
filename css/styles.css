@@ -1,20 +1,77 @@
-/* * {
-    outline: 2px solid red;
-  } */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* * {outline: 2px solid red;} */
 
 body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background: #eee;
+  font-family: Roboto, sans-serif;
 }
 
 .header {
-    color: red;
+  background: darkturquoise;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6%;
 }
 
-.content {
-    color: yellowgreen;
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.right {
+  margin-right: 14px;
+}
+
+.logo {
+  border-radius: 60%;
+  width: 46px;
+  height: 46px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0; 
+  padding: 0;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.box-one {
+  color: yellowgreen;
+  display: flex;
+  align-items: center;
+}
+
+.main-text{
+  font-size: large;
+}
+
+.main-duck {
+  width: 400px;
+  height: 400px;
+}
+
+.box-two {
+
 }
 
 .footer {
-    color: purple;
+  background: darkgray;
+  border-top: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6%;
 }
