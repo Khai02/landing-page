@@ -12,7 +12,6 @@ body {
 
 .header {
   background: darkturquoise;
-  border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
@@ -49,9 +48,12 @@ a {
 }
 
 .box-one {
-  color: yellowgreen;
+  color: rgb(16, 170, 170);
+  background-color: #1f2937;
   display: flex;
   align-items: center;
+  padding: 3%;
+  gap: 100px;
 }
 
 .main-text{
@@ -59,17 +61,37 @@ a {
 }
 
 .main-duck {
-  width: 400px;
-  height: 400px;
+  width: 95%;
+  height: auto;
 }
 
 .box-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+}
 
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 32px;
+}
+
+.duck-box {
+  /* display: flex; */
+  justify-content: center;
+  text-align: center;
+  gap: 52px;
+}
+
+.duck {
+  width: 150px;
+  height: 150px;
 }
 
 .footer {
   background: darkgray;
-  border-top: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
