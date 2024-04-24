@@ -12,7 +12,6 @@ body {
 
 .header {
   background: darkturquoise;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
   padding: 0.6%;
@@ -66,28 +65,35 @@ a {
 }
 
 .box-two {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 52px;
+  text-align: center;
+  background-color: rgb(228, 198, 159);
 }
 
 .title {
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 900;
-  margin-bottom: 32px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
-.duck-box {
-  /* display: flex; */
+.container {
+  display: flex;
   justify-content: center;
-  text-align: center;
-  gap: 52px;
+  gap: 46px;
+  margin-bottom: 20px;
 }
 
-.duck {
-  width: 150px;
-  height: 150px;
+.small-duck {
+  width: 250px;
+  height: 210px;
+  border-radius: 13.5%;
+  outline: 5px solid rgb(16, 150, 45);
+}
+
+.text {
+  margin-top: 5px;
+  font-size: 19px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
 }
 
 .footer {
