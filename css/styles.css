@@ -55,7 +55,7 @@ a {
   gap: 100px;
 }
 
-.main-text{
+.main-text {
   font-size: 18px;
 }
 
@@ -108,7 +108,7 @@ a {
   font-size: 40px; 
 }
 
-.box-four{
+.box-four {
   background-color: #cbced4;
   display: flex;
   justify-content: right;
